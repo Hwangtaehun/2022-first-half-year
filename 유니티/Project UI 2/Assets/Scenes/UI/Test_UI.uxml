@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Bule_Template.uss?fileID=7433441132597879392&amp;guid=99b3226a02b98e64cbcbd3286c02c0e9&amp;type=3#Bule_Template" />
+    <ui:VisualElement style="height: 53px; width: 742px; align-items: center; justify-content: space-between;">
+        <ui:Label text="option" display-tooltip-when-elided="true" style="font-size: 30px; -unity-font-style: bold-and-italic; -unity-font: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=dd7e7288ecf729343961aaf33b38a2fd&amp;type=3#NotInter-Regular&apos;);" />
+    </ui:VisualElement>
+    <ui:VisualElement style="height: 328px; width: 742px; align-items: center; justify-content: center;">
+        <ui:Button text="Start Music" display-tooltip-when-elided="true" name="Button1" class="blue-button" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="Button2" class="blue-button red-button" />
+        <ui:Button text="Button" display-tooltip-when-elided="true" name="Button3" class="blue-button red-button" />
+    </ui:VisualElement>
+</ui:UXML>
