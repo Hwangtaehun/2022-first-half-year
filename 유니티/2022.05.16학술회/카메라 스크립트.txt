@@ -1,0 +1,20 @@
+    GameObject player;
+    public float offsetX = 0;
+    public float offsetY = 0;
+    public float offsetZ = 0;
+
+    Vector3 camPos;
+
+    void Start()
+    {
+        player = GameObject.Find("Player");
+    }
+
+    void Update()
+    {
+        camPos.x = player.transform.position.x + offsetX;
+        camPos.y = player.transform.position.y + offsetY;
+        camPos.z = player.transform.position.z + offsetZ;
+
+        this.transform.position = camPos;
+    }
